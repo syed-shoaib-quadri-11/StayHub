@@ -8,7 +8,7 @@ const Header = () => {
             <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[-10vw] md:mb-[-30px]'>
                 <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight lg:leading-tight '>StayHub <br />
                     Where Stays Feel Like Home</p>
-                <div className='flex flex-col md:flex-row items-center gape-3 text-white text-sm font-light '>
+                <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light '>
                     <img className='w-28 ' src={assets.group_profiles} alt="" />
                     <p>StayHub helps you find PGs, rooms, and shared accommodations with ease. <br className='hidden sm:block'/>Trusted listings, simple search, and comfortable stays — all in one place.</p>
                 </div>

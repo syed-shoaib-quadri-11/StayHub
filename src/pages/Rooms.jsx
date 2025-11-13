@@ -10,7 +10,7 @@ const Rooms = () => {
   const [ showFilter, setShowFilter ] = useState(false)
   const [filterStay, setFilterStay] = useState([])
   const { topstay } = useContext(AppContext)
-  if (!topstay || topstay.length === 0) return <p>Loading...</p>;
+ 
 
   const applyFilter = () => {
     if (speciality) {
@@ -33,9 +33,9 @@ const Rooms = () => {
             onClick={() =>
               speciality === "Verified Stay"
                 ? navigate("/rooms")
-                : navigate("/rooms/Verified Stay")
+                : navigate("/rooms/Verified Stays")
             }
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Verified Stay" ? "bg-indigo-100 text-black" : ""
+            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Verified Stays" ? "bg-indigo-100 text-black" : ""
               }`}
           >
             Verified Stays

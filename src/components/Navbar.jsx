@@ -1,13 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { assets } from '../assets/assets'
 import { NavLink, useNavigate } from 'react-router-dom'
-<link rel="stylesheet" href="index.css"></link>
+import '../index.css'
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
   const [open, setOpen] = useState(false)
   const [token, setToken] = useState(true)
   const dropdownRef = useRef(null)
+  const navigate = useNavigate();
+
 
   // Close dropdown when clicking outside
   useEffect(() => {

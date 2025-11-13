@@ -15,27 +15,16 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
-import PG1 from './PG1.png'
-import PG2 from './PG2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+import stay1 from './stay1.jpg'
+import stay2 from './stay2.jpg'
+import stay3 from './stay3.jpg'
+import stay4 from './stay4.jpg'
+import stay5 from './stay5.jpg'
+import stay6 from './stay6.jpg'
+import stay7 from './stay7.jpg'
+import stay8 from './stay8.jpg'
+import stay9 from './stay9.jpg'
+import stay10 from './stay10.jpg'
 import Badge from './verified.png'
 import afford from './Affordable.png'
 import Location from './location.png'
@@ -100,213 +89,213 @@ export const specialityData = [
 
 export const topstay = [
     {
-        _id: 'PG1',
-        name: 'Stanza Living',
-        image: PG1,
-        speciality: 'Verified Stay',
-        owner: 'Rachove',
+        _id: 'stay1',
+        name: 'The Maple Residency',
+        image: stay1,
+        speciality: 'Verified Stays',
+        Owner: 'Rahul Sharma',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'The Maple Residency is known for its clean, well-maintained rooms and friendly service. Located in the heart of the city, it provides a comfortable stay for both students and working professionals.',
+        fees: 12000,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '12th Cross, Indiranagar',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'PG2',
-        name: 'Dr. Emily Larson',
-        image: PG2,
-        speciality: 'Verified Stay',
-        Owner: 'MBBS',
+        _id: 'stay2',
+        name: 'Sunrise Comfort PG',
+        image: stay2,
+        speciality: 'Affordable & Flexible',
+        Owner: 'Priya Menon',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Sunrise Comfort PG offers affordable accommodation with flexible meal options and clean surroundings, perfect for college students and job seekers.',
+        fees: 9500,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '5th Block, Koramangala',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc3',
-        name: 'Dr. Sarah Patel',
-        image: PG1,
-        speciality: 'Dermatologist',
-        Owner: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
-        address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc4',
-        name: 'Dr. Christopher Lee',
-        image: PG2,
-        speciality: 'Pediatricians',
-        Owner: 'MBBS',
+        _id: 'stay3',
+        name: 'Green Nest Stay',
+        image: stay3,
+        speciality: 'Eco-Friendly Stays',
+        Owner: 'Ankit Verma',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Green Nest Stay promotes eco-conscious living with solar-powered lighting and water recycling facilities, offering guests a peaceful and sustainable stay.',
+        fees: 10500,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'HSR Layout Sector 2',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
-        image: PG1,
-        speciality: 'Neurologist',
-        Owner: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        _id: 'stay4',
+        name: 'Elite Urban Homes',
+        image: stay4,
+        speciality: 'Prime Locations',
+        Owner: 'Sneha Kapoor',
+        experience: '6 Years',
+        about: 'Elite Urban Homes is located in the most convenient part of the city, providing quick access to tech parks, restaurants, and public transport.',
+        fees: 15000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'MG Road',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc6',
-        name: 'Dr. Andrew Williams',
-        image: PG1,
-        speciality: 'Neurologist',
-        Owner: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        _id: 'stay5',
+        name: 'The Comfort Den',
+        image: stay5,
+        speciality: 'Comfort & Amenities',
+        Owner: 'Vikram Singh',
+        experience: '5 Years',
+        about: 'The Comfort Den ensures a homely environment with top-notch amenities like Wi-Fi, laundry service, and common lounges for guests to relax.',
+        fees: 13000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BTM 2nd Stage',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc7',
-        name: 'Dr. Christopher Davis',
-        image: PG1,
-        speciality: 'General physician',
-        Owner: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc8',
-        name: 'Dr. Timothy White',
-        image: PG1,
-        speciality: 'Gynecologist',
-        Owner: 'MBBS',
+        _id: 'stay6',
+        name: 'Blue Haven Residency',
+        image: stay6,
+        speciality: 'Pet-Friendly Options 🐾',
+        Owner: 'Aisha Khan',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Blue Haven Residency welcomes pet owners with dedicated pet zones and open lawns, providing a safe and fun environment for your furry friends.',
+        fees: 14500,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Whitefield Main Road',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
-        image: PG1,
-        speciality: 'Dermatologist',
-        Owner: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        _id: 'stay7',
+        name: 'Serene Suites',
+        image: stay7,
+        speciality: 'Verified Stays',
+        Owner: 'Karan Patel',
+        experience: '7 Years',
+        about: 'Serene Suites is known for its verified listings and guest safety, with 24/7 CCTV surveillance and biometric entry systems.',
+        fees: 14000,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Electronic City Phase 1',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc10',
-        name: 'Dr. Jeffrey King',
-        image: PG2,
-        speciality: 'Pediatricians',
-        Owner: 'MBBS',
+        _id: 'stay8',
+        name: 'Golden Leaf PG',
+        image: stay8,
+        speciality: 'Affordable & Flexible',
+        Owner: 'Meera Joshi',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Golden Leaf PG offers affordable accommodation for students and professionals with flexible food plans and modern interiors.',
+        fees: 9000,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Bannerghatta Main Road',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
-        image: PG2,
-        speciality: 'Neurologist',
-        Owner: 'MBBS',
+        _id: 'stay9',
+        name: 'Harmony Habitat',
+        image: stay9,
+        speciality: 'Comfort & Amenities',
+        Owner: 'Rohit Desai',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Harmony Habitat focuses on providing high-quality comfort with spacious rooms, fast Wi-Fi, and delicious meals served daily.',
+        fees: 12500,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'JP Nagar 5th Phase',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc12',
-        name: 'Dr. Patrick Harris',
-        image: PG1,
-        speciality: 'Neurologist',
-        Owner: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc13',
-        name: 'Dr. Chloe Evans',
-        image: PG2,
-        speciality: 'General physician',
-        Owner: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
-        image: PG1,
-        speciality: 'Gynecologist',
-        Owner: 'MBBS',
+        _id: 'stay10',
+        name: 'Olive Grove Stay',
+        image: stay10,
+        speciality: 'Eco-Friendly Stays',
+        Owner: 'Nisha Bhat',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Olive Grove Stay features green design, energy-efficient appliances, and natural ventilation systems to create a sustainable lifestyle.',
+        fees: 11000,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Yelahanka New Town',
+            line2: 'Bangalore, Karnataka'
         }
     },
     {
-        _id: 'doc15',
-        name: 'Dr. Amelia Hill',
-        image: PG2,
-        speciality: 'Dermatologist',
-        Owner: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        _id: 'stay11',
+        name: 'CityView Residency',
+        image: stay1,
+        speciality: 'Prime Locations',
+        Owner: 'Amit Rao',
+        experience: '5 Years',
+        about: 'CityView Residency offers panoramic city views and easy connectivity to metro stations, making it perfect for business travellers.',
+        fees: 15500,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Church Street',
+            line2: 'Bangalore, Karnataka'
+        }
+    },
+    {
+        _id: 'stay12',
+        name: 'The Cozy Corner',
+        image: stay2,
+        speciality: 'Comfort & Amenities',
+        Owner: 'Divya Iyer',
+        experience: '4 Years',
+        about: 'The Cozy Corner is a boutique stay offering comfort-focused services, air-conditioned rooms, and a peaceful environment.',
+        fees: 12500,
+        address: {
+            line1: 'Domlur Layout',
+            line2: 'Bangalore, Karnataka'
+        }
+    },
+    {
+        _id: 'stay13',
+        name: 'Palm Residency',
+        image: stay3,
+        speciality: 'Verified Stays',
+        Owner: 'Ramesh Pillai',
+        experience: '6 Years',
+        about: 'Palm Residency is a verified and secure property offering affordable yet premium living spaces for working individuals.',
+        fees: 13500,
+        address: {
+            line1: 'Hebbal Ring Road',
+            line2: 'Bangalore, Karnataka'
+        }
+    },
+    {
+        _id: 'stay14',
+        name: 'Urban Bliss PG',
+        image: stay4,
+        speciality: 'Affordable & Flexible',
+        Owner: 'Snehal Patil',
+        experience: '2 Years',
+        about: 'Urban Bliss PG is known for its flexible rental options and shared amenities, ideal for students and professionals alike.',
+        fees: 9500,
+        address: {
+            line1: 'Marathahalli',
+            line2: 'Bangalore, Karnataka'
+        }
+    },
+    {
+        _id: 'stay15',
+        name: 'Pet Paradise Homes',
+        image: stay5,
+        speciality: 'Pet-Friendly Options 🐾',
+        Owner: 'Aditya Jain',
+        experience: '3 Years',
+        about: 'Pet Paradise Homes is designed for pet lovers, featuring pet grooming areas, open play zones, and a calm environment for all.',
+        fees: 15000,
+        address: {
+            line1: 'Sarjapur Road',
+            line2: 'Bangalore, Karnataka'
         }
     },
 ]
